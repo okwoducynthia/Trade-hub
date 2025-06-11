@@ -1,0 +1,35 @@
+.footer-container {
+  background-color: rgb(229, 231, 235);
+  justify-items: center;
+  align-content: center;
+  height: 40vh;
+}
+.footer-container div i {
+  font-size: 20px;
+  color: var(--light-black-color);
+  margin-right: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.footer-container div i:hover {
+  color: rgba(12, 12, 12, 0.863)
+}
+.footer-container h3 {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.144);
+  margin-bottom: 40px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-links p {
+  font-size: 13px;
+  font-family: var(--inter-font);
+  color: var(--light-black-color);
+  cursor: pointer;
+}

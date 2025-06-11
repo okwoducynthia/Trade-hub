@@ -1,0 +1,128 @@
+.forex-section {
+  background-color: var(--light-white-color);
+  padding-bottom: 30px;
+}
+.forex-section h4 {
+  width: 82%;
+  border: none;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.144);
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.forex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.forex-description {
+  width: 30%;
+}
+.forex-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+}
+.forex-description h2 {
+  font-size: 25px;
+  font-family: var(--karla-font);
+  font-weight: 400;
+  color: var(--sky-blue-color);
+  margin-bottom: 20px;
+}
+.forex-description p {
+  font-size: 14px;
+  font-family: var(--inter-font);
+  margin-bottom: 20px;
+}
+.forex-description ul {
+  margin-bottom: 20px;
+}
+.forex-description ul li {
+  font-size: 14px;
+  font-family: var(--inter-font);
+  line-height: 27px;
+}
+.forex-description button {
+  padding: 17px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--karla-font);
+  border: 2px solid rgb(83, 81, 81);
+  border-radius: 40px;
+  cursor: pointer;
+  background: transparent;
+  color: rgb(83, 81, 81);
+}
+.forex-sub-heading {
+  width: 90%;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.forex-sub-heading h1 {
+  font-size: 22px;
+  font-family: var(--karla-font);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+.forex-sub-heading p {
+  font-size: 14px;
+  font-family: var(--inter-font);
+  line-height: 23px;
+}
+.forex-image img {
+  width: 100%;
+  height: 70vh;
+}
+.forex-section h3 {
+  width: 82%;
+  border: none;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.144);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+
+/* =====MEDIA QUERY STARTS HERE======== */
+@media (max-width: 1224px) {
+  .forex-sub {
+    width: 60%;
+  }
+}
+
+@media (max-width: 834px) {
+  .forex-container {
+    flex-direction: column;
+    padding-top: 40px;
+    margin-top: -40px;
+  }
+  .forex-description {
+    width: 80%;
+  }
+  .forex-sub {
+    padding-top: 30px;
+    flex-direction: column;
+    width: 95%;
+  }
+  .forex-image {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .forex-image img {
+    width: 70%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .forex-image img {
+    width: 95%;
+  }
+}

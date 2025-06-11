@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====CSS VARIABLE==== */
+:root {
+  --darker-blue-color: rgb(49, 130, 193);
+  --sky-blue-color: rgb(15, 142, 199);
+  --light-white-color: rgb(229, 231, 235);
+  --navy-blue-color: rgb(33, 43, 54);
+  --light-black-color: rgb(117, 117, 117);
+  --dark-black-color: rgb(102, 102, 102);
+  --orange-color: rgb(253, 186, 116);
+  --orange-empty-color: rgb(209, 213, 219);
+
+  /* ============FONT============= */
+  --inter-font: "Inter", sans-serif;
+  --karla-font: "Karla", sans-serif;
+}

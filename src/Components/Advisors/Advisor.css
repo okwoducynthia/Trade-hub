@@ -1,0 +1,122 @@
+.advisor-section {
+  background-color: white;
+  align-content: center;
+  height: 100vh;
+}
+.advisor-section h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: var(--inter-font);
+  font-weight: 200;
+}
+.advisor-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.advisor-container div {
+  width: 30%;
+  height: 50vh;
+  text-align: center;
+  align-content: center;
+}
+.camera-icon i {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgb(9, 146, 106);
+  color: white;
+  font-size: 30px;
+  justify-items: center;
+  align-content: center;
+}
+.briefcase-icon i {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgb(228, 143, 37);
+  color: white;
+  font-size: 30px;
+  justify-items: center;
+  align-content: center;
+}
+.users-icon i {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgb(45, 112, 142);
+  color: white;
+  font-size: 30px;
+  justify-items: center;
+  align-content: center;
+}
+.advisor-container div h1 {
+  font-size: 45px;
+  font-family: var(--inter-font);
+  font-weight: 600;
+}
+.advisor-container div p {
+  font-size: 14px;
+  font-family: var(--inter-font);
+}
+.empty-div {
+  width: 82%;
+  border: none;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.144);
+  margin-left: auto;
+  margin-right: auto;
+}
+.empty-div:nth-of-type(1) {
+  margin-bottom: 30px;
+}
+.advisor-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.advisor-details p {
+  font-size: 17px;
+  font-family: var(--inter-font);
+}
+.advisor-details button {
+  padding: 17px 45px;
+  background-color: var(--darker-blue-color);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  font-family: var(--karla-font);
+  cursor: pointer;
+}
+
+/* =====MEDIA QUERY STARTS HERE======== */
+@media (max-width: 834px) {
+  .advisor-container {
+    flex-direction: column;
+  }
+  .advisor-container div {
+    width: 80%;
+  }
+  .advisor-details {
+    flex-direction: column;
+    text-align: center;
+  }
+  .advisor-details p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .advisor-section h1 {
+    width: 90%;
+    margin: auto;
+  }
+  .advisor-container {
+    height: 550px;
+  }
+  .advisor-container div h1 {
+    font-size: 20px;
+  }
+}

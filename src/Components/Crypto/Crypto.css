@@ -1,0 +1,111 @@
+.crypto-container {
+  background-color: var(--light-white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+}
+.crypto-description {
+  width: 30%;
+}
+.crypto-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+}
+.crypto-description h2 {
+  font-size: 25px;
+  font-family: var(--karla-font);
+  font-weight: 400;
+  color: var(--sky-blue-color);
+  margin-bottom: 20px;
+}
+.crypto-description p {
+  font-size: 14px;
+  font-family: var(--inter-font);
+  margin-bottom: 20px;
+}
+.crypto-description ul {
+  margin-bottom: 20px;
+}
+.crypto-description ul li {
+  font-size: 14px;
+  font-family: var(--inter-font);
+  line-height: 27px;
+}
+.crypto-description button {
+  padding: 17px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--karla-font);
+  border: 2px solid rgb(83, 81, 81);
+  border-radius: 40px;
+  cursor: pointer;
+  background: transparent;
+  color: rgb(83, 81, 81);
+}
+.crypto-sub-heading {
+  width: 90%;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.crypto-sub-heading h1 {
+  font-size: 22px;
+  font-family: var(--karla-font);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+.crypto-sub-heading p {
+  font-size: 14px;
+  font-family: var(--inter-font);
+  line-height: 23px;
+}
+.crypto-image img {
+  width: 100%;
+  height: 70vh;
+}
+
+/* =====MEDIA QUERY STARTS HERE======== */
+@media (max-width: 1224px) {
+  .crypto-sub {
+    width: 60%;
+  }
+  .crypto-image img {
+    height: 87vh;
+  }
+}
+
+@media (max-width: 834px) {
+  .crypto-container {
+    flex-direction: column;
+    padding-top: 40px;
+    height: 100%;
+  }
+  .crypto-description {
+    width: 80%;
+  }
+  .crypto-sub {
+    flex-direction: column;
+    padding-top: 30px;
+    width: 95%;
+  }
+  .crypto-image {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .crypto-image img {
+    width: 70%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .crypto-image img {
+    width: 95%;
+  }
+}
