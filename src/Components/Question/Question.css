@@ -1,9 +1,6 @@
-.question-main {
-  background-color: rgb(249, 250, 251);
-}
 .question-container {
   width: 60%;
-  height: 90vh;
+  height: 70vh;
   align-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -25,7 +22,9 @@
 @media (max-width: 1224px) {
   .question-container {
     width: 80%;
-    height: 70vh;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -39,10 +38,8 @@
   .question-container {
     margin-top: 50px;
     width: 95%;
-    height: 65vh;
   }
   .questions-heading {
     font-size: 25px;
   }
-
 }
