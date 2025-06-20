@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer-container">
-      <div>
+      <div className="footer-icons">
         <i className="fa-brands fa-twitter"></i>
         <i className="fa-solid fa-envelope"></i>
       </div>

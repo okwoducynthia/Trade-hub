@@ -4,15 +4,19 @@
   align-content: center;
   height: 15rem;
 }
-.footer-container div i {
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.footer-icons i {
   font-size: 20px;
   color: var(--light-black-color);
-  margin-right: 20px;
-  margin-bottom: 40px;
   cursor: pointer;
-  justify-items: center;
 }
-.footer-container div i:hover {
+.footer-icons i:hover {
   color: rgba(12, 12, 12, 0.863)
 }
 .footer-container h3 {

@@ -1,7 +1,7 @@
 .testimonial {
   background-color: rgb(249, 250, 251);
   align-content: center;
-  height: 100vh;
+  height: 35rem;
 }
 .testimonial h3 {
   font-size: 14px;
@@ -94,7 +94,7 @@
 @media (max-width: 1224px) {
   .testimonial-card {
     width: 60%;
-    height: 50vh;
+    height: 14.3rem;
   }
 }
 
@@ -109,11 +109,10 @@
     height: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
-    /* height: 80vh; */
   }
   .testimonial-card {
     flex-direction: column;
-    width: 95%;
+    width: 80%;
     height: 350px;
   }
   .testimonial-content  {
@@ -123,6 +122,6 @@
     margin: auto;
     border-radius: 50%;
     height: 30%;
-    width: 30%;
+    width: 40%;
   }
 }
