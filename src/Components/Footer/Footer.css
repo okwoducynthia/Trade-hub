@@ -10,6 +10,7 @@
   margin-right: 20px;
   margin-bottom: 40px;
   cursor: pointer;
+  justify-items: center;
 }
 .footer-container div i:hover {
   color: rgba(12, 12, 12, 0.863)
